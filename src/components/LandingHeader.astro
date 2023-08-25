@@ -1,5 +1,8 @@
 ---
-import Logo from "./Logo.astro";
+import Logo from "./icons/Logo.astro";
+import Question from "./icons/Question.astro";
+import Language from "./icons/Language.astro";
+import Account from "./icons/Account.astro";
 ---
 
 <header
@@ -14,12 +17,11 @@ import Logo from "./Logo.astro";
         <ul
             class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
         >
-            <li><a href="">Model S</a></li>
-            <li><a href="">Model 3</a></li>
-            <li><a href="">Model X</a></li>
-            <li><a href="">Model Y</a></li>
-            <li><a href="">Powerwall</a></li>
+            <li><a href="">Vehículos</a></li>
+            <li><a href="">Energía</a></li>
             <li><a href="">Carga</a></li>
+            <li><a href="">Descubrir</a></li>
+            <li><a href="">Tienda</a></li>
         </ul>
     </nav>
 
@@ -27,10 +29,15 @@ import Logo from "./Logo.astro";
         <ul
             class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
         >
-            <li><a href="">Soporte</a></li>
-            <li><a href="">Tienda</a></li>
-            <li><a href="">Cuenta</a></li>
-            <li><a href="">Menú</a></li>
+            <li>
+                <a href=""><Question /></a>
+            </li>
+            <li>
+                <a href=""><Language /></a>
+            </li>
+            <li>
+                <a href=""><Account /></a>
+            </li>
         </ul>
     </nav>
 
